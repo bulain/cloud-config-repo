@@ -9,6 +9,7 @@ spring:
           group: queue
         output:
           destination: cloud.task
+          contentType: application/json
   rabbitmq:
     host: localhost
     port: 5672
