@@ -4,7 +4,7 @@ spring:
       bindings:
         input:
           destination: cloud.task
-          group: task
+          group: queue
   rabbitmq:
     host: localhost
     port: 5672
