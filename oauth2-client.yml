@@ -12,6 +12,8 @@ security:
       user-authorization-uri: http://localhost:8778/oauth/authorize
       access-token-uri: http://localhost:8778/oauth/token
       client-id: 70d7c0424190ec81726664d1dd93cfe5
+      client-secret: 91ee593b1c46b22874e11ac12278d2f4528d7594
     resource:
-      token-info-uri: http://localhost:8778/oauth/token
       user-info-uri: http://localhost:8778/oauth/user
+      prefer-token-info: false
+      
