@@ -1,0 +1,13 @@
+server:
+  port: 8781
+spring:
+  zipkin:
+    base-url: http://localhost:8773
+  sleuth:
+    sampler:
+      percentage: 1.0
+zuul:
+  routes:
+    zipkin:
+      path: /zipkin/**
+      serviceId: zipkin-service

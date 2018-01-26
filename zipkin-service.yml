@@ -1,5 +1,5 @@
 server:
-  port: 8774
+  port: 8780
 spring:
   zipkin:
     base-url: http://localhost:8773
